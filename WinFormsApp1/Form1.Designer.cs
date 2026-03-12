@@ -39,19 +39,21 @@
             // 
             button1.Location = new Point(332, 80);
             button1.Name = "button1";
-            button1.Size = new Size(112, 34);
+            button1.Size = new Size(123, 34);
             button1.TabIndex = 0;
-            button1.Text = "button1";
+            button1.Text = "Addition";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
             button2.Location = new Point(332, 192);
             button2.Name = "button2";
-            button2.Size = new Size(112, 34);
+            button2.Size = new Size(123, 34);
             button2.TabIndex = 1;
-            button2.Text = "button2";
+            button2.Text = "Substraction";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // txtFirstNo
             // 
@@ -59,7 +61,6 @@
             txtFirstNo.Name = "txtFirstNo";
             txtFirstNo.Size = new Size(150, 31);
             txtFirstNo.TabIndex = 2;
-            txtFirstNo.Text = "txtFirstNo";
             txtFirstNo.TextChanged += textBox1_TextChanged;
             // 
             // txtSecNo
@@ -68,7 +69,6 @@
             txtSecNo.Name = "txtSecNo";
             txtSecNo.Size = new Size(150, 31);
             txtSecNo.TabIndex = 3;
-            txtSecNo.Text = "txtSecNo";
             txtSecNo.TextChanged += textBox2_TextChanged;
             // 
             // txtResult
@@ -78,7 +78,6 @@
             txtResult.Name = "txtResult";
             txtResult.Size = new Size(150, 31);
             txtResult.TabIndex = 4;
-            txtResult.Text = "txtResult";
             // 
             // Form1
             // 
